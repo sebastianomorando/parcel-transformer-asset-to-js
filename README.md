@@ -13,7 +13,7 @@ or
 yarn add install parcel-transformer-asset-to-js -D
 ```
 
-After this you should configure in `.parcelrc` the transformation for Svelte files:
+After this you should configure in `.parcelrc` the transformation for wherever kind of binary file you want to import:
 
 ```json
 {

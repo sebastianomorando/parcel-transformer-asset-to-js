@@ -1,8 +1,21 @@
 {
   "name": "parcel-transformer-asset-to-js",
+  "description": "A Parcel 2 transformer plugin to import binary assets as javascript modules.  ",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "author": "Sebastiano Morando <sebastianomorando@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sebastianomorando/parcel-transformer-asset-to-js.git"
+  },
+  "keywords": [
+    "parcel",
+    "transformer",
+    "assets",
+    "base64",
+    "module"
+  ],
   "dependencies": {
     "@parcel/plugin": "^2.0.0-alpha.3",
     "mime-types": "^2.1.30"
